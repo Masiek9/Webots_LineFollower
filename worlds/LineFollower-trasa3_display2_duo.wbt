@@ -1,0 +1,81 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.45584132660228016 4.430813449245766 -0.3439627318038131
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.07 0 0
+  floorSize 4 2
+  floorAppearance Appearance {
+    texture ImageTexture {
+      url [
+        "textures/parquetry/Trasa3-duo1.png"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+    }
+    textureTransform TextureTransform {
+      scale 0.2 0.3
+      translation -2 0
+    }
+  }
+}
+E-puck {
+  translation 0.454676 -0.000216622 -0.344415
+  rotation -0.0015833496553077353 0.9999887823043085 0.004464109028171797 -0.11107530717958625
+  controller "linefolllower-pod3"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 640
+  camera_rotation 0.7071067811865476 0.7071067811865476 0 0
+  groundSensorsSlot [
+    Display {
+      width 300
+      height 240
+    }
+    DistanceSensor {
+      translation 0 0.005 0
+      name "IRM"
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0 -0.01 0
+      name "IRL"
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0 0.01 0
+      name "IRR"
+      type "infra-red"
+    }
+  ]
+}
+E-puck {
+  translation -0.671026 0.000399935 -0.352741
+  rotation -0.001583279656912007 0.999988783307931 0.0044639090326954655 -0.11107530717958625
+  name "kontrolny"
+  controller "linefollower_kontrolny"
+  camera_fieldOfView 1
+  camera_width 640
+  camera_height 640
+  camera_rotation 0.7071067811865476 0.7071067811865476 0 0
+  groundSensorsSlot [
+    DistanceSensor {
+      translation 0 -0.01 0
+      name "IRL"
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0 0.01 0
+      name "IRR"
+      type "infra-red"
+    }
+  ]
+}
