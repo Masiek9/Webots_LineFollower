@@ -70,6 +70,10 @@ W tym miejscu, program dla każdego wykonanego kroku pobiera wartość z obu czu
 	    # Step simulation
 	    while robot.step(time_step) != -1:
 	    
+	    
+	    
+	    
+	    
 	        left_ir_value = left_ir.getValue()
 	        right_ir_value = right_ir.getValue()
 	        
@@ -174,3 +178,16 @@ if __name__ == "__main__":
     
     my_robot = Robot()
     run_robot(my_robot)
+    
+    
+    
+    
+# Pokonywanie trasy
+
+Nagrania dokumenctujące pokonanie trasy przez robota i porównanie prędkości robota rozbudowanego o kontrolę prędkosci znajduje sie w poniższych filmach.
+
+https://youtu.be/u4CuMHC0R4I
+
+https://youtu.be/Jzc3UB8ED9s
+
+https://youtu.be/u4CuMHC0R4I
