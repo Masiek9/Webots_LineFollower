@@ -6,15 +6,14 @@ Robot  ma adaptować  się  do  pokonywanej  trasy  zmieniając  swoją  prędko
 ## Zaimportowanie bibliotek oraz kontrolerów
 Na samym początku kodu znajdują się wszystkie zaimportowane w kontrolerze biblioteki oraz wykorzystywane urzadzenia programu Webots. 
 
-	#from controller import Robot
-	#from controller import Camera
-	#from controller import DistanceSensor, Motor
-	#import time
-	#import cv2
-	#import numpy as np
-	#import sys
-	#from controller import Display
-
+	from controller import Robot
+	from controller import Camera
+	from controller import DistanceSensor, Motor
+	import time
+	import cv2
+	import numpy as np
+	import sys
+	from controller import Display
 
 ## funkcja CountSpeed
 Funkcja CountSpeed  jest funkcją ustalającą prędkość, z jaką porusza się robot. Przyjmuje dwie watości `CountL` i ` CountR` adące liczbą czarnych pikseli po prawej i lewej stronie wyświetlacza. W zależnosci od ich liczby, funkcja zwraca wartość będącą maksymalną prędkoscią robota.
