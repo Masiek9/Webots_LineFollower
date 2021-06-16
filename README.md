@@ -5,6 +5,8 @@ Robot  ma adaptować  się  do  pokonywanej  trasy  zmieniając  swoją  prędko
 
 Projekt został wykonany przez Aleksandrę Kozak oraz Marię Lis.
 
+Dokumentacja techniczna dostępna jest pod linkiem : https://github.com/Masiek9/Webots_LineFollower/blob/main/Dokumentacja%20techniczna.md
+
 Nagrania dokumenctujące pokonanie trasy przez robota i porównanie prędkości robota rozbudowanego o kontrolę prędkosci znajduje sie w poniższych filmach.
 
 https://youtu.be/u4CuMHC0R4I
